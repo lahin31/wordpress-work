@@ -1,0 +1,26 @@
+/*
+Theme Name: Lahin Wordpress 
+Theme URI: https://wordpress.org/themes/lahin-wp/
+Author: Muhammad Lahin.
+Author URI: https://lahin.com/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Lahin_WP
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+
+.cat-item::before {
+    content: "\f054";
+}
+
+.cat-item {
+    list-style: none;
+}
+
+.cats {
+    padding: 8px;
+}
