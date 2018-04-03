@@ -26,11 +26,20 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 }
 
 .nav-links {
-	display: inline-block;
+    display: inline-block;
 }
 
 .nav-links a {
-	color: black;
+    background: white !important;
+    color: blue;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+
+.nav-links .current {
+    background: blue !important;
+    color: white;
     padding: 5px 10px;
     text-decoration: none;
     border: 1px solid #ddd;
