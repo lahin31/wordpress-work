@@ -15,6 +15,19 @@
 						</div>
                     </div>
 <?php endwhile; ?>
+					<!-- Pagination -->
+					
+					<?php 
+
+					    the_posts_pagination( array(
+					    	'screen_reader_text' => ' ',
+						    'mid_size' => 2,
+						    'prev_text' => __( 'Previous', 'Lahin_WP' ),
+						    'next_text' => __( 'Next', 'Lahin_WP' ),
+
+						) ); 
+					?>
+
 					
 					<div style="clear: both;">&nbsp;</div>
 				</div>
