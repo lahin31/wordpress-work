@@ -24,3 +24,14 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 .cats {
     padding: 8px;
 }
+
+.nav-links {
+	display: inline-block;
+}
+
+.nav-links a {
+	color: black;
+    padding: 5px 10px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
