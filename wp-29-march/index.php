@@ -21,7 +21,7 @@
 
 					    the_posts_pagination( array(
 					    	'screen_reader_text' => ' ',
-						    'mid_size' => 2,
+						    'mid_size' => 3,
 						    'prev_text' => __( 'Previous', 'Lahin_WP' ),
 						    'next_text' => __( 'Next', 'Lahin_WP' ),
 
