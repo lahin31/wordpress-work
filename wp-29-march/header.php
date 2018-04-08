@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> >
 <head>
-<meta charset="<?php bloginfo('charset'); ?>"
+<meta charset="<?php bloginfo('charset'); ?>" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title><?php wp_title(); ?></title>
 <link href='http://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet' type='text/css' />
