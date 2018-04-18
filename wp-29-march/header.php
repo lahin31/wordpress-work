@@ -4,7 +4,6 @@
 <meta charset="<?php bloginfo('charset'); ?>" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title><?php wp_title(); ?></title>
-<link href='http://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet' type='text/css' />
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 <link href="<?php echo get_template_directory_uri(); ?>/assets/style.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url')?>">
