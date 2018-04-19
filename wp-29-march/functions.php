@@ -52,7 +52,7 @@ function my_custom_post_type() {
 
 	$args = array(
 		'labels'             => $labels,
-        'description'        => __( 'Description.', 'Lahin_WP' ),
+                'description'        => __( 'Description.', 'Lahin_WP' ),
 		'public'             => true,
 		'publicly_queryable' => true,
 		'show_ui'            => true,
