@@ -15,7 +15,8 @@ function myScriptFiles() {
     wp_enqueue_style('style-wp', get_template_directory_uri());
     
     // scripts
-    wp_enqueue_script('font-awesome-js', 'https://use.fontawesome.com/releases/v5.0.9/js/all.js');
+    wp_enqueue_script('tether-min-js', 'https://www.atlasestateagents.co.uk/javascript/tether.min.js');
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri().'/assets/js/bootstrap.min.js');
 }
 add_action('wp_enqueue_scripts', 'myScriptFiles');
 
