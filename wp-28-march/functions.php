@@ -13,6 +13,9 @@ function myScriptFiles() {
     wp_enqueue_style('bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
     wp_enqueue_style('style-css', get_template_directory_uri().'/assets/css/templatemo-style.css');
     wp_enqueue_style('style-wp', get_template_directory_uri());
+    
+    // scripts
+    wp_enqueue_script('font-awesome-js', 'https://use.fontawesome.com/releases/v5.0.9/js/all.js');
 }
 add_action('wp_enqueue_scripts', 'myScriptFiles');
 
