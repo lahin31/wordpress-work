@@ -8,10 +8,10 @@ add_theme_support('custom-background');
 add_theme_support('widgets');
 
 function myScriptFiles() {
-    // /assets/css/templatemo-style.css
     // style
     wp_enqueue_style('font-google-api', 'http://fonts.googleapis.com/css?family=Nova+Mono');
     wp_enqueue_style('bootstrap-css', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css');
+    wp_enqueue_style('style-css', get_template_directory_uri().'/assets/css/templatemo-style.css');
     wp_enqueue_style('style-wp', get_template_directory_uri());
 }
 add_action('wp_enqueue_scripts', 'myScriptFiles');
