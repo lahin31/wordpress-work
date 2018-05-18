@@ -29,7 +29,7 @@ class TwitterFollowWidget extends WP_Widget {
 		echo $args['before_widget']; // Whatever you want to display before widget <div>
 
 		// Widget Content Output
-		echo '<a class="twitter-follow-button" href="'.$instance['link'].'" class="twitter-follow-button" data-size="large">Follow <?php echo $instance["title"]?></a>';
+		echo '<a href="'.$instance['link'].'" class="twitter-follow-button" data-size="large">Follow <?php echo $instance["title"]?></a>';
 
 		echo $args['after_widget']; // whatever you want to display after the widget </div>
 	}
